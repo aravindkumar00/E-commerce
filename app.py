@@ -6,7 +6,7 @@ import mysql.connector
 
 app = Flask(__name__, static_url_path='/statics', static_folder='statics')
 
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = 'mysql'
 app.config['MYSQL_USER'] = 'aravind'
 app.config['MYSQL_PASSWORD'] = 'Aravind@111'
 app.config['MYSQL_DB'] = 'aru'
